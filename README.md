@@ -16,17 +16,15 @@ Override the default block texture and generate a UV-matched template directly f
 
 - Create and arrange your UVs normally.
 
-- ![Example](images/custom_uv_example.png)
-- ![Example Model](images/example_model)
+<img src="images/custom_uv_example.png" width="300" height="300"> <img src="images/example_model.png" width="300" height="300">
 
 **Step 2:** Generate a proper UV template in Blockbench
 - Select all model parts.
 - Open Textures → Create Texture (or press ```Ctrl+Shift+T```).
-- ![Create Texture](images/create_texture_for_template.png)
 - Set the texture name to the exact block name you are overriding.
 - Disable Rearrange UV.
 - ```Export/save``` the generated template.
-- ![Texture Diagram](images/custom_uv_with_texture.png)
+  
 - Remove the texture reference from the ```.jem``` file.
 
 
@@ -34,4 +32,4 @@ Override the default block texture and generate a UV-matched template directly f
 
 Your model keeps its custom UVs, your resource pack uses the edited texture, and the vanilla break-overlay now works correctly.
 
-<img src="result-2.png" width="300" height="300"> <img src="result-1.png" width="300" height="300">
+<img src="images/result-1.png" width="300" height="300">
