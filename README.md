@@ -1,4 +1,5 @@
 Issue-Fixed Guide
+
 1. Problem
 
 The block break texture effect is not visible on models that use custom UVs in Blockbench.
@@ -28,4 +29,3 @@ This creates a texture template that matches your UV layout perfectly.
 Save the generated texture template, but remove it from the .jem file.
 
 That’s all. Your model keeps its custom UVs, the resource pack uses your edited texture, and the vanilla block-break overlay now works correctly.
-![Preview](images/result-1.png)! [Preview](images/result-2.png)
